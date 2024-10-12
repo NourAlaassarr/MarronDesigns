@@ -1,0 +1,60 @@
+html, body {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+}
+
+.App {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Enable scroll snapping */
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  display: flex; /* Use flex to align items in a row */
+  height: 100vh; /* Full height */
+}
+
+.panel {
+  flex: 0 0 100vw; /* Each panel takes full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  display: flex; /* Flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  font-size: 3rem; /* Font size */
+  color: white; /* Text color */
+  scroll-snap-align: start; /* Align panels for scroll snapping */
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.orange {
+  background-color: #e67e22;
+}
+
+.purple {
+  background-color: #9b59b6;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.gray {
+  background-color: #95a5a6;
+}
+
+.scroll-down {
+  position: absolute; /* Fixed position */
+  bottom: 20px; /* Position at the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for center alignment */
+  color: white; /* Color for scroll text */
+}

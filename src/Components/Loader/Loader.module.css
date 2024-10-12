@@ -1,0 +1,15 @@
+.first ,.second ,.third {
+  background-color: rgb(58, 18, 9);
+  
+}
+.row{
+  position: fixed;
+  Top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+.Loader{
+  overflow: hidden;
+}

@@ -1,0 +1,59 @@
+.AboutUsImg{
+    background-image: url('../../img/dana-devolk-JBqC2n_0zHM-unsplash.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.AboutUsImgLayer{
+    background-color: #421f0bc5;
+    height: 50vh;
+}
+.AboutUs h1{
+    color: #401b05;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.backgroundcol{
+    background-color: #401b05;
+    height: 50vh;
+    color: #ffffff;
+
+}
+.FounderImg{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.Title{
+   color:  #401b05;
+}
+.imgcontainer{
+
+padding: 20px;
+}
+.imgcontainer i{
+
+    color: #401b05;
+    }
+    .imgcontainer i span{
+
+        color: #401b05;
+        }
+.Line{
+    height: 2px;
+    width: 100%;
+    background-color: #401b0594;
+}
+
+.AboutFounder {
+
+    color: #401b05;
+    padding: 20px ;
+  text-align: center;
+  }

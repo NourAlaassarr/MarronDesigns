@@ -1,0 +1,50 @@
+.SocialLinks a i {
+    color: white;
+}
+
+.SocialLinks a i:hover {
+    color: #d05e1cc5;
+   background-color:white ;
+}
+.LinkBoarder {
+    margin-right: 1px;
+}
+.LinkBoarder a i{
+    
+    border: solid 2px #401b05;
+    border-radius: 50%;
+    background-color: #401b05;
+    color: white;
+    padding: 5px;
+}
+.UsefulLinks{
+    margin-bottom: 20px;
+}
+.UsefulLinks a{
+    
+    color: #401b05;
+    font-size:20px;
+}
+.UsefulLinks a:hover{
+    color: #d05e1cc5;
+}
+.UsefulLinks p{
+    color: #401b05;
+    font-size: 12px;
+
+}
+.UsefulLinks i:hover{
+    color: #d05e1cc5;
+}
+
+.Line{
+
+margin-top: 25px;
+color: #401b05;
+border: #401b05 solid 1px ;
+
+}
+.texts p{
+    font-size: 15px;
+
+}

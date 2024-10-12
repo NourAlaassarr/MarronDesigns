@@ -1,0 +1,21 @@
+.AboutUs {
+    position: relative;
+  }
+  
+  .backgroundImage {
+    position: absolute; /* Allows the background to be behind content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Full coverage */
+    overflow: hidden; /* Hide any overflow from the image */
+    z-index: -1; /* Ensure it stays behind the text */
+  }
+  
+  .backgroundImage img {
+    width: 100%; /* Ensures the image covers the entire background */
+    height: auto; /* Keeps aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    transition: transform 0.5s ease; /* Smooth transition for zoom */
+  }
+  
