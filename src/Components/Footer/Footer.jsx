@@ -17,26 +17,22 @@ export default function Footer() {
             <div className="col-md-3 mb-2"> {/* Added margin-bottom */}
               <h4>Useful Links</h4>
               <div className={`d-flex flex-column ${Style.UsefulLinks}`}>
+              <Link to={'/Home'} className='text-decoration-none'>Home</Link>
                 <Link to={'/About'} className='text-decoration-none'>About</Link>
-                <Link to={'/Services'} className='text-decoration-none'>Services</Link>
+                <Link to={'/Portfolio'} className='text-decoration-none'>Portfolio</Link>
                 <Link to={'/ContactUs'} className='text-decoration-none'>Contact Us</Link>
-                <Link to={'/FAQ'} className='text-decoration-none'>FAQ</Link>
+                
               </div>
             </div>
             <div className="col-md-3 mb-4"> {/* Added margin-bottom */}
-              <h4>Head Office</h4>
+              <h4>Our Contact</h4>
               
               <div className={`d-flex flex-column mb-2  ${Style.UsefulLinks}`}>
-              
-                <i className="fa fa-map-marker">
-                  <p className='h6 d-inline-flex p-2 offset-1'>St.tagamo3</p>
-                </i>
-              
                 <i className="fa fa-envelope">
-                  <p className='h6 d-inline-flex p-2 offset-1'>Mahmoud.gabr@hotmail.co.uk</p>
+                  <p className=' d-inline-flex p-2'>Mahmoud.gabr@hotmail.co.uk</p>
                 </i>
                 <i className="fa fa-phone">
-                  <p className='h6 d-inline-flex p-2 offset-1'>+201223464949</p>
+                  <p className='d-inline-flex p-2 '>+201223464949</p>
                 </i>
               </div>
             </div>

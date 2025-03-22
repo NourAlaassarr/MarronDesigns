@@ -136,21 +136,14 @@ export default function About() {
       <div data-aos="fade-up" data-aos-once="false" data-aos-duration='1000' className={`${Style.Line} mb-5`}></div>
     </div>
     <div className="container-fluid">
-    <div className='row justify-content-center align-items-center p-2'>
+    <div className='row justify-content-center align-items-center p-3'>
  <div className="col-md-6">
- <div data-aos="fade-right" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='900' className="FounderImg d-flex flex-column  justify-content-evenly">
+ <div className="FounderImg d-flex flex-column  justify-content-evenly">
    <img className={`${Style.FounderImg}`} src={founder} alt='Founder'/>
    <h5 className='text-center m-2  fs-6 text-muted'> Mahmoud Gabr</h5>
    </div>
  </div>
- <div className="col-md-6">
- <div className={`${Style.AboutFounder}`}>
-      <h6 data-aos="fade-up" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='900' className='text-center h5 fw-bolder my-4 '>After graduating in 2013, I set out to transform kitchens, dressing rooms, and wardrobes into functional, beautiful spaces.</h6>
-      <h6 data-aos="fade-up" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='1000' className='text-center h5 fw-bolder my-4 '>In 2018,I founded my design and build business, specializing in materials like MDF, PVC, Polylac, and natural wood.</h6>
-      <h6 data-aos="fade-up" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='1100' className='text-center h5 fw-bolder my-4 '>With over a decade of experience, my team and I craft bespoke solutions tailored to each client's style, delivering practical and inspiring designs.</h6>
-      <h6 data-aos="fade-up" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='1200' className='text-center h5 fw-bolder my-4'>If you can dream it, we can build it.</h6>
-    </div>
- </div>
+
     
     </div>
     </div>

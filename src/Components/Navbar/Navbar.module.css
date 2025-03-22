@@ -6,7 +6,7 @@
 
 
 .Navbar{
-  background-color: rgba(157, 105, 79, 0.574);
+  background-color: #401b05;
   background-color: white;
 }
 .Navbar a{
@@ -14,7 +14,7 @@
     transition: color 0.3s ease; 
 }
 .Navbar a:hover{
-  color: #d05e1cc5;
+  color: #291307c5;
 }
 
   /* Navbar.module.css */

@@ -42,7 +42,7 @@ export default function App() {
             <Route path='*' element={''}></Route>
           </Routes>
           <div data-aos="zoom-in-up"  data-aos-easing='ease-in-sine' data-aos-delay='200' data-aos-duration='600'>
-   <Footer  ></Footer>
+   <Footer /> 
    </div>
         
         </>

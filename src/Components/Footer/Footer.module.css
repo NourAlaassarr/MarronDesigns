@@ -3,7 +3,7 @@
 }
 
 .SocialLinks a i:hover {
-    color: #d05e1cc5;
+    color:  #1f0c00c5;
    background-color:white ;
 }
 .LinkBoarder {
@@ -26,15 +26,17 @@
     font-size:20px;
 }
 .UsefulLinks a:hover{
-    color: #d05e1cc5;
+    color: #291307c5;
 }
 .UsefulLinks p{
     color: #401b05;
     font-size: 12px;
 
+
 }
-.UsefulLinks i:hover{
-    color: #d05e1cc5;
+.UsefulLinks p:hover{
+    color: #291307c5;
+   
 }
 
 .Line{

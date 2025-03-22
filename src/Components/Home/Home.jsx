@@ -16,7 +16,7 @@ import VerticalSwiper from '../Swiper/VerticalSwiper.jsx';
 import kitchen from '../../img/mtbakhhelw.jpg'
 import { ScrollContainer, ScrollPage, Animator,Move,FadeIn,ZoomIn, ZoomInScrollOut,Zoom,StickyIn, Sticky,Fade, batch, FadeOut } from 'react-scroll-motion';
 import { Nav } from 'react-bootstrap';
-
+import DownloadPdf from '../DownloadPdf.js';
 import Typed from "typed.js";
 
 import modern from '../../img/modern-living-room-interior-design-line-art-illustration-two-armchairs-floor-lamp-houseplant-furnished-drawing-room-contour-illustration-sketch-on-white-background-minimalist-interior-design-vector.jpg'
@@ -53,26 +53,24 @@ export default function Home() {
 <>
 <section data-aos="fade-up" data-aos-easing='ease-in-sine'  data-aos-once="false"  data-aos-duration='900' className='HomePage' > 
 
-<section >
-  <div className="container-fluid ">
-  <div className="row  justify-content-center align-items-center ">
-  
-    <div className="col-md-6">
-    <div className="typing m-2 p-4">
-<h1 className=' fw-bolder textc' ref={el}></h1>
-</div>
-  
-    </div>
-    <div className="col-md-6 d-flex justify-content-end align-items-center">
-    <div className={`${Style.HomePic} `}>
-  <img src={modern} style={{width:'100%'}}  alt="Dressing"/>
-  </div>
-    </div>
-  </div>
-  </div>
- 
+<section className="d-flex align-items-center" style={{ height: "80" }}>
+  <div className="container-fluid">
+    <div className={`${Style.Home} row d-flex justify-content-center align-items-center text-center`} style={{ height: "100vh" }}>
+      
+      <div className="col-md-12 d-flex flex-column justify-content-center align-items-center">
+        <div className="typing m-2 p-4">
+          <h1 className=" fw-bolder text-white" ref={el}></h1>
+        </div>
 
+        <button className={`${Style.catalog} btn mt-4`}>
+          <DownloadPdf />
+        </button>
+      </div>
+      
+    </div>
+  </div>
 </section>
+
 
 <section id='Aboutus' data-aos="fade-up"  data-aos-easing='ease-in-sine' data-aos-delay='200' data-aos-duration='900'   className={`${Style.AboutUs} mt-5`}>
   <div className={`${Style.AboutUsLayer}`}>

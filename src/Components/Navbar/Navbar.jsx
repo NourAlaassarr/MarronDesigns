@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-   <nav class={` ${Style.Navbar} navbar navbar-expand-lg bg-transparent  p-3 navbar-light  `}>
+   <nav class={` ${Style.Navbar} navbar navbar-expand-lg bg-transparent  p-2 navbar-light  `}>
    <div  className='navbar-brand '>
      <Link to={'/Home'}> <img className={Style.LogoStyle} src={Logo} alt="logo"/></Link>
   </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
        <Link  className="nav-link fw-bold" to={'/About'}>About</Link>
      </li>
      <li  className="nav-item">
-       <Link  className="nav-link fw-bold" to={'/Portfolio'}>Portfolio</Link>
+       <Link  className="nav-link fw-bold" to={'/Portfolio'}>Photo-Gallery</Link>
      </li>
     
      <li  className="nav-item">
@@ -50,10 +50,7 @@ export default function Navbar() {
  
            <li className="nav-item active p-2">
            <li className="nav-item active p-2">
-  <button
-    className="btn btn-outline-dark">
-    <DownloadPdf/>
-  </button>
+
 </li>
             </li>
    </ul>

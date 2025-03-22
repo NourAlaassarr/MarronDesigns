@@ -7,7 +7,7 @@
 }
 
 .AboutUsImgLayer{
-    background-color: #421f0bc5;
+    background-color: #230e01;
     height: 50vh;
 }
 .AboutUs h1{
@@ -18,7 +18,7 @@
 
 
 .backgroundcol{
-    background-color: #401b05;
+    background-color: #230e01;
     height: 50vh;
     color: #ffffff;
 
@@ -48,7 +48,7 @@ padding: 20px;
 .Line{
     height: 2px;
     width: 100%;
-    background-color: #401b0594;
+    background-color:  brown; 
 }
 
 .AboutFounder {

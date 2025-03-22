@@ -15,8 +15,12 @@
 
 
 
-
-
+.Home{
+    background-color: #230e01;
+    height: 80vh;
+    width: 100%;
+    border-radius: 0px 0px 400px 0px;
+}
 .HomePic {
   
     width: 80%;  /* Adjust the width based on how much space you want the image to take */
@@ -24,6 +28,18 @@
     margin-left: 0;
   }
 
+  .catalog{
+    background-color: #ffffff !important;
+    border-radius: 0px 10px 10px 0px;
+    border-color: #ffffff 2px solid;
+  }
+  .catalog a{
+    color: #230e01;
+    text-decoration: none;
+  }
+  .catalog a:hover{
+    color: #d05e1cc5;
+  }
 .ServicePic{
     /* background-image: url('../../img/retro-wall-mockup-psd-living-room-interior-design_53876-123249.avif'); */
     background-image: url('../../img/dana-devolk-JBqC2n_0zHM-unsplash.jpg');
